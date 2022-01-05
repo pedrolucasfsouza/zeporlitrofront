@@ -8,8 +8,8 @@ export default function Header(props){
             <Content>
                 <img src={props.src}></img>
                 <p>{props.title}</p>
-                <p>{props.und} / Und</p>
-                <p>{props.litro} / Litro</p>
+                <p>R$ {props.und} / Und</p>
+                <strong>R$ {props.litro} / Litro</strong>
 
             </Content>
         </Container>

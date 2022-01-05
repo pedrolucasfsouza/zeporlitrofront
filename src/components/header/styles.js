@@ -13,7 +13,14 @@ export const Content = styled.main`
 width: 100%;
 display: flex;
 justify-content: space-around;
-align-items:s;
+
+@media (max-width: 1000px) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+     }
+
 ;
 
     h1 {
@@ -33,8 +40,13 @@ export const Search = styled.main`
         padding: 10px;
         border-radius: 0.5rem;
         color: #949494;
-
     }
+
+    @media (max-width: 1000px) {
+        width: 80%;
+        input{
+        width: 100%}
+     }
 `
 
 export const Logo = styled.main`
@@ -43,4 +55,6 @@ export const Logo = styled.main`
     justify-content: center;
     width: 40%;
 `
+
+
 ;

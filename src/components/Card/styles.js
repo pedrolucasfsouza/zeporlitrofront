@@ -10,6 +10,12 @@ export const Container = styled.main`
     justify-content: center;
     flex-direction: column;
     margin: 10px 5px;
+
+    :hover{
+        width: 240px;
+        height: 280px;
+        box-shadow: rgba(243, 225, 107) 0px 0px 0px 3px;
+    }
 `
 
 export const Content = styled.main`
@@ -18,6 +24,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction:column;
+padding: 10px;
+text-align: center;
     h1 {
         color: #FFCC00;
     }
